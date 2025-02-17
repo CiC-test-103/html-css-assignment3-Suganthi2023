@@ -47,6 +47,158 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
+body{
+  display:flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+  background-color: black;
+  box-sizing: border-box;
+  overflow: scroll;
+  align-items: center; 
+  
+}
+main {  
+  font-size: 18px;
+  font-family: var(--fs-base, --fs-accent);
+  margin-left: 100px;
+  margin-right: 100px;
+  max-width: 800px; 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--clr-stone100);
+  box-sizing: border-box; 
+  justify-content: center;
+}
+
+.recipe_card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ /* margin-top: 50px;
+  margin-bottom:50px;
+  margin-left: 200px;
+  margin-right: 200px;*/
+  margin:50px;  
+  gap:1rem;
+  padding:2rem;  
+  background-color:white;  
+  border-radius: 1rem;
+  color: var(--clr-stone600);
+  font-size: var(--fw-regular);
+  max-height:fit-content;
+}
+
+p {
+  font-size: var(--font-paragraph);
+}
+
+.recipe_card img {
+  border-radius: 0.5rem;
+}
+
+.recipe-title{
+  font-size: var(--font-header);
+  font-family:var(--fs-accent);
+  color: var(--clr-stone900);
+}
+
+.preparation-time {
+  /*background-color:rgb(253, 236, 244);*/
+  background-color: var(--clr-rose50);
+  border-radius: 10px; 
+  padding: 10px;   
+}
+
+.preparation-time .prep-para {
+  color: var(--clr-rose800);
+  font-weight: var(--fw-black); 
+}
+
+.preparation-time ul li {
+  padding-left: 15px;
+  margin: 10px;
+}
+
+.preparation-time ul li::marker {
+  color: var(--clr-rose800);
+  font-size: small;  
+}
+
+.preparation-time .label {
+  color: var(--clr-stone600);
+  font-weight:var(--fw-black);
+}
+
+/*.itemsneeded h2 {
+  color: var(--clr-brown800);  
+}*/
+
+h2 {
+  color: var(--clr-brown800);
+  font-family: var(--fs-accent);
+  font-size: var(--font-sub-header);
+}
+.itemsneeded ul li::marker {
+  color: var(--clr-brown800);
+  font-size: small;
+}
+
+.itemsneeded ul li {
+  padding-left: 15px;
+  margin: 10px;
+}
+
+/*.preparation-details h2{
+  color: var(--clr-brown800);
+}*/
+
+.preparation-details ol li {
+  padding-left: 15px;
+  margin: 10px;
+}
+
+.preparation-details ol li::marker {
+  color: var(--clr-brown800);
+  font-weight: var(--fw-bold);
+}
+
+.label1 {
+  font-weight:var(--fw-black);
+}
+
+/*.nutrition-info{
+  margin: 20px auto;
+}*/
+
+.nutri-info{
+  display: flex;
+  flex-direction: row;  
+  justify-content:space-between;
+  padding-left: 50px;  
+  margin:10px;
+}
+
+.nutri-info-name {
+  margin-right: 20px;
+}
+
+.nutri-info-value {
+  font-weight: var(--fw-bold);
+  color: var(--clr-brown800);
+  margin-right: 200px;
+  justify-content:left;  
+}
+
+hr {
+  border :0;
+  height: 1px;
+  background-color: #ddd;
+  margin: 10px 0;
+}
+
 
 /** Attribution CSS **/
 .attribution { font-size: 11px; text-align: center; }

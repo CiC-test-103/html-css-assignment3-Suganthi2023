@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /** Your CSS Below **/
-body{
+/*body{
   display:flex;
   flex-direction: column;
   margin:0;
@@ -57,13 +57,13 @@ body{
   overflow: scroll;
   align-items: center; 
   
-}
-main {  
+}*/
+body {  
   font-size: 18px;
   font-family: var(--fs-base, --fs-accent);
-  margin-left: 100px;
+  /*margin-left: 100px;
   margin-right: 100px;
-  max-width: 800px; 
+  max-width: 800px;*/ 
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -77,11 +77,11 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
- /* margin-top: 50px;
+  margin-top: 50px;
   margin-bottom:50px;
   margin-left: 200px;
-  margin-right: 200px;*/
-  margin:50px;  
+  margin-right: 200px;
+ /* margin:50px;  */
   gap:1rem;
   padding:2rem;  
   background-color:white;  
